@@ -49,6 +49,12 @@
             > img {
                 align-self: center;
             }
+            
+            h2 {
+                font-size: 24px;
+                margin: 64px 0 24px 0;
+                font-family: 'Poppins', sans-serif;
+            }
 
             form {
                 input {
@@ -59,6 +65,8 @@
                     border: 1px solid #a8a8b3;
                 }
 
+            
+
             button{
                 margin-top: 16px;
             }
@@ -66,6 +74,16 @@
             button, input {
                 width: 100%;
             }
+            }
+
+            p {
+                font-size: 14px;
+                color: #737380;
+                margin-top: 16px;
+
+                a {
+                    color: #E559F9;
+                }
             }
 
             .create-room {
