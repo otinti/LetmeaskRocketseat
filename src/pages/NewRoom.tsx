@@ -29,7 +29,7 @@ export function NewRoom() {
             authorId: user?.id // O '?', é para verificar se no user há um undefined ou um usuário já verificado
         })
 
-        history.push(`/rooms/${firebaseRoom.key}`)
+        history.push(`/admin/rooms/${firebaseRoom.key}`)
     }
 
     return (
